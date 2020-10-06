@@ -1,7 +1,5 @@
-[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
+# Kotlin Multiplatform Mobile websocket example
 
-# Networking and data storage with Kotlin Multiplatform Mobile
-
-This repository is the code corresponding to the hands-on lab [Networking and data storage with Kotlin Multiplatform Mobile](https://play.kotlinlang.org/hands-on/Networking%20and%20data%20storage%20with%20Kotlin%20Multiplatform%20Mobile/01_introduction).
+This project was created using the [Networking and data storage with Kotlin Multiplatform Mobile](https://github.com/kotlin-hands-on/kmm-networking-and-data-storage) example as a starting point. Then the code [here](https://kotlinlang.org/docs/mobile/connect-to-platform-specific-apis.html#example-send-and-receive-messages-from-a-websocket) was copied into the project to have a ready to go KMM websocket example.
