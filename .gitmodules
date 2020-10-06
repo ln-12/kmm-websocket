@@ -1,0 +1,3 @@
+[submodule "androidApp/rovermaprendererAndroidv2"]
+	path = androidApp/rovermaprendererAndroidv2
+	url = git@git.informatik.tu-freiberg.de:steigtum/rovermaprendererandroidv2.git
