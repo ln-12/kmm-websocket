@@ -39,9 +39,13 @@ struct ContentView: View {
     var body: some View {
         Text("\(model.currentText)").padding(8)
         Button("Connect") {
-            // connect to server
-            print("Connecting")
-            model.ws.connect()
+            if model.ws.currentState == AppSocket.State.closed {
+                // connect to server
+                print("Connecting")
+                model.ws.connect()
+            } else {
+                print("Already connected")
+            }
         }.padding(8)
         
         Button("Close") {
