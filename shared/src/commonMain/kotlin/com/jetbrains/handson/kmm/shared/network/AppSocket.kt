@@ -34,7 +34,8 @@ class AppSocket(url: String) {
         if (currentState != State.CONNECTED) throw IllegalStateException("The connection is lost.")
         ws.sendMessage(msg)
     }
-    private val socketListener = object : PlatformSocketListener {
+    //socketListener needs explicit type declaration -> https://youtrack.jetbrains.com/issue/KT-20996
+    private val socketListener: PlatformSocketListener = object : PlatformSocketListener {
         override fun onOpen() {
             currentState = State.CONNECTED
         }
